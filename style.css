@@ -20,29 +20,130 @@ body {
 /*BODY*/
 
 /*Flexbox*/
+/*Parent 1*/
+#parent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
+/*Width*/
+.child1{
+  width: 25%;
+}
 
+.child3{
+  width: 25%;
+  text-align: right;
+}
 
+.child2{
+  width: 50%;
+  text-align: center;
+}
+/*End Width*/
 
-
+.huffleclaw-logo1 {
+  width: 50%;
+  flex-grow: 1;
+  margin-left: 20px; 
+  padding-top: 20px;
+}   
+.huffleclaw-logo2 {
+  width: 65%;
+  flex-grow: 1;
+  margin-right: 20px;
+  padding-top: 20px; 
+    
+} 
 .vacation-title {
   font-family: 'Anton', sans-serif;
   color: darkblue;
   font-size: 30px; 
-  text-align: center;
-  padding-top: 0;
-  margin-top: 0;
-  
+  padding-top: 20px;
+  margin-top: 10;
+  flex-grow: 1;
+  width: 600px;
 }
 
-.ournames, .date {
+.lightblue {
   color: deepskyblue;
+}
+
+.vacation-names {
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px; 
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.vacation-date {
+  margin: 0px;
+  padding: 0px; 
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.team {
+  font-family: 'Fjalla One', sans-serif;
+  color: darkblue;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section1 {
+  margin-bottom: 10px; 
+  border-bottom: 10px solid darkblue;
+}
+
+#parent2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.photo1, .photo2, .photo3 {
+  width: 60%;
+}
+
+.Hufflepuff, .Ravenclaw {
+  margin-left: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  color: darkblue;
+  font-size: 20px; 
+  text-align: center;
+}
+
+.sorted {
+  margin-left: 15px;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.knightbus-photo {
+  width: 25%;
+}
+
+.knightbus-text {
+  text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 25px;
+  color: darkblue; 
 }
 
-.team-huffleclaw {
+.footer {
+  text-align: center;
   font-family: 'Fjalla One', sans-serif;
-  color: deepskyblue;
+  color: darkblue; 
 }
-
