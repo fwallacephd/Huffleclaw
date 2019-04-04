@@ -23,7 +23,7 @@ body {
 /*Parent 1*/
 #parent {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -46,13 +46,13 @@ body {
 .huffleclaw-logo1 {
   width: 50%;
   flex-grow: 1;
-  margin-left: 20px; 
+  margin-left: 40px; 
   padding-top: 20px;
 }   
 .huffleclaw-logo2 {
-  width: 65%;
+  width: 50%;
   flex-grow: 1;
-  margin-right: 20px;
+  margin-right: 40px;
   padding-top: 20px; 
     
 } 
@@ -91,7 +91,7 @@ body {
   font-weight: bold;
 }
 
-section1 {
+.heading {
   margin-bottom: 10px; 
   border-bottom: 10px solid darkblue;
 }
@@ -99,15 +99,20 @@ section1 {
 #parent2 {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
-
 }
 
-.photo1, .photo2, .photo3 {
-  width: 60%;
+
+
+.photos img {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px; 
 }
+
+
 
 .Hufflepuff, .Ravenclaw {
   margin-left: 15px;
@@ -120,7 +125,7 @@ section1 {
 .sorted {
   margin-left: 15px;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
 
 }
 
